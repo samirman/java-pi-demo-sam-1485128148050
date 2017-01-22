@@ -1,0 +1,12 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 2
+  domain: mybluemix.net
+  name: java-pi-demo-sam
+  host: java-pi-demo-sam
+  disk_quota: 1024M
+  services:
+  - performance-monitoring-auto
+  - java-pi-demo-sam-personality_insights
+  - Monitoring and Analytics-rb
